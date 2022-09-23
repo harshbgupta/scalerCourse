@@ -8,6 +8,9 @@ public class ProblemSolving {
 //        q1();
         q2();
         main(args);
+
+        //TODO: for prime number run loop till i <= Math.sqrt(A)
+        // as you can get all factor till sqrt(A)
     }
 
     /**
@@ -18,8 +21,7 @@ public class ProblemSolving {
     private static String q1() {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
-        System.out.println(q1Assist(n));
-        //made a comment
+
         return "";
     }
 
