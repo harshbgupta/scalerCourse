@@ -5,6 +5,7 @@ and done by Mr. Lucifer
 # Java 
 1. Input and Output
 2. if else
+
 3. While Loop 
 4. for loop 
 5. Function 
