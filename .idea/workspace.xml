@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f70437e-0e82-449a-bc23-59b8a7f56937" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Temp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classroom/PrefixSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsaBasic/ArrayDSA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsaBasic/ProblemSolvingHW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsaBasic/TimeComplexity1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsaBasic/TimeComplexity1HW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsaBasic/TimeComplexity2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsaBasic/TimeComplexity2HW.java" afterDir="false" />
+    <list default="true" id="d6b2a761-57e3-48f8-abb0-71a5d9b4d1b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/dsaBasic/CarryForward.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsaBasic/CarryForwardHW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsaBasic/Intro2Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsaBasic/Intro2ArraysHW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsaBasic/PrefixSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsaBasic/PrefixSumCC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsaBasic/PrefixSumHW.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dsaBasic/ProblemSolving.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsaBasic/ProblemSolving.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Temp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classroom/PrefixSum.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +26,43 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="ofc-laptop" />
+                    <option name="lastUsedInstant" value="1664960089" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1664960088" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2FArBLLxZf1XtoLxJbAeFRB3clr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectId" id="2Fi1Q1UGU7bQaFKGUZZHaSJwPjR" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -44,24 +74,12 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/happie/hell/workspace/scaler/scalerCourse/src&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="dsaBasic" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.ProblemSolvingHW">
-    <configuration name="ProblemSolving" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsaBasic.ProblemSolving" />
+}</component>
+  <component name="RunManager" selected="Application.PrefixSum">
+    <configuration name="CarryForward" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsaBasic.CarryForward" />
       <module name="scalerCourse" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProblemSolvingHW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsaBasic.ProblemSolvingHW" />
+    <configuration name="PrefixSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsaBasic.PrefixSum" />
       <module name="scalerCourse" />
       <extension name="coverage">
         <pattern>
@@ -88,19 +106,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProblemSolvingHW" />
-        <item itemvalue="Application.ProblemSolving" />
+        <item itemvalue="Application.PrefixSum" />
+        <item itemvalue="Application.CarryForward" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2f70437e-0e82-449a-bc23-59b8a7f56937" name="Changes" comment="" />
-      <created>1663945593129</created>
+      <changelist id="d6b2a761-57e3-48f8-abb0-71a5d9b4d1b7" name="Changes" comment="" />
+      <created>1664960071656</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663945593129</updated>
+      <updated>1664960071656</updated>
     </task>
     <servers />
   </component>
@@ -114,27 +132,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dsaBasic/ProblemSolving.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dsaBasic/ProblemSolving.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dsaBasic/ProblemSolving.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
