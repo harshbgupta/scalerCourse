@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6b2a761-57e3-48f8-abb0-71a5d9b4d1b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dsaBasic/CarryForward.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsaBasic/CarryForwardHW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsaBasic/Intro2Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsaBasic/Intro2ArraysHW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsaBasic/PrefixSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsaBasic/PrefixSumCC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsaBasic/PrefixSumHW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsaBasic/SubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Temp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classroom/PrefixSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dsaBasic/PrefixSumHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsaBasic/PrefixSumHW.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,14 +62,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "settings.editor.selected.configurable": "editor.preferences.folding"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.PrefixSum">
     <configuration name="CarryForward" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dsaBasic.CarryForward" />
