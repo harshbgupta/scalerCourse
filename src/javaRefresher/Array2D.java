@@ -19,7 +19,7 @@ public class Array2D {
      * ans: 4 7 3 7 4 1 2 4 4
      */
     public static void q1(String[] args) {
-        //TODO: Imp
+        //TODO : Imp
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
@@ -58,7 +58,7 @@ public class Array2D {
      * See example for clarifications regarding wave print.
      */
     public static void q2(String[] args) {
-        //TODO: Imp
+        //TODO : Imp
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();

@@ -73,10 +73,6 @@ public class Temp {
                 array[i] = scn.nextInt();
             }
 
-
-            //ele 2
-            // odd = ""
-//              even =
             //trying tio figure number of odd or even number in array
             String even = "";
             String odd = "";
@@ -133,6 +129,38 @@ public class Temp {
             }
             //taking the temp var and storing in storing in ans array
             sum[i] = temp;
+        }
+    }
+
+    /**
+     *
+     */
+    private static void q3() {
+        Scanner scn = new Scanner(System.in);
+        int row = scn.nextInt();
+
+        int col = row;
+        int[][] arr = new int[row][col];
+        for (int r = 0; r < row; r++) {
+            for (int c = 0; c < col; c++) {
+                arr[r][c] = scn.nextInt();
+            }
+        }
+
+        for (int c = 0; c < col; c++) {
+            if (c % 2 == 0) {
+                //even
+                for (int r =0; r<row;r++){
+                    System.out.println(arr[r][c]);
+                }
+
+            } else {
+                //odd
+                for (int r =row-1; r>=0;r--){
+                    System.out.println(arr[r][c]);
+                }
+
+            }
         }
     }
 }

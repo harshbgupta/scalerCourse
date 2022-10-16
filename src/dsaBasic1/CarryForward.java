@@ -1,8 +1,7 @@
-package dsaBasic;
+package dsaBasic1;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class CarryForward {
     public static void main(String[] args) {

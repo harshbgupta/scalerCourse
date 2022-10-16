@@ -1,4 +1,4 @@
-package dsaBasic;
+package dsaBasic1;
 
 public class PrefixSum {
     public static void main(String[] args) {
