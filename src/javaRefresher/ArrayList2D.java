@@ -14,7 +14,7 @@ public class ArrayList2D {
         int row = A.length;
         int col = A[0].length;
         for (int i = 0; i < row; i++) {
-            for (int j = 0; j < row; j++) {
+            for (int j = 0; j < col; j++) {
                 if ((i == j && A[i][j] != 1) || (i != j && A[i][j] != 0)) {
                     return 0;
                 }
@@ -33,9 +33,9 @@ public class ArrayList2D {
     public int[][] q2(int[][] A) {
         int row = A.length, col = A[0].length;
         int[][] ans = new int[col][row];
-        for (int i = 0; i < col; i++) {
-            for (int j = 0; j < row; j++)
-                ans[i][j] = A[j][i];
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++)
+                ans[j][i] = A[i][j];
 
         }
         return ans;
