@@ -1,4 +1,4 @@
-package dsaBasic1;
+package dsa.intrermediate1;
 
 public class BitManipulation1HW {
     public static void main(String[] args) {

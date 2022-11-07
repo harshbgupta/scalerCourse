@@ -1,4 +1,4 @@
-package dsaBasic1;
+package dsa.intrermediate1;
 
 import java.util.ArrayList;
 import java.util.List;

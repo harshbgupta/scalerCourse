@@ -1,5 +1,7 @@
-package dsaBasic1;
+package dsa.intrermediate1;
 
+
+import java.util.ArrayList;
 
 public class Matrices2D {
     public static void main(String[] args) {
@@ -91,6 +93,39 @@ public class Matrices2D {
         return sum;
     }
 
+    /**
+     * Give a N * N square matrix A, return an array of its anti-diagonals. Look at the example for more details.
+     *
+     * TC:
+     * SC:
+     */
+    private static ArrayList<ArrayList<Integer>> q5diagonal(ArrayList<ArrayList<Integer>> A) {
+        int l = A.size();
+        ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
+        for (int i = 0; i < 2 * l - 1; ++i) {
+            int offset = i < l ? 0 : i - l + 1;
+            ArrayList<Integer> row = new ArrayList<Integer>();
+            int k=0;
+            for (int j = offset; j <= i - offset; ++j) {
+                row.add(A.get(j).get(i - j));
+                k++;
+            }
+            for(int j = k; j< l ;j++){
+                row.add(0);
+            }
+            res.add(row);
+        }
+        return res;
+
+    }
+
+    /**
+     * You are given a matrix A, you have to return another matrix which is the transpose of A.
+     *
+     * NOTE: Transpose of a matrix A is defined as - AT[i][j] = A[j][i] ; Where 1 ≤ i ≤ col and 1 ≤ j ≤ row. The
+     * tranpose of a matrix switches the element at (i, j)th index to (j, i)th index,
+     * and the element at (j, i)th index to (i, j)th index.
+     */
     public static int[][] q6TransposeMatrix(int[][] A) {
         int row = A.length, col = A[0].length;
         int[][] ans = new int[col][row];
@@ -103,6 +138,10 @@ public class Matrices2D {
     }
 
     /**
+     * You are given a n x n 2D matrix A representing an image.
+     * Rotate the image by 90 degrees (clockwise).
+     * You need to do this in place.
+     * Note: If you end up using an additional array, you will only receive partial score.
      * TC:
      * SC:
      */
@@ -131,5 +170,31 @@ public class Matrices2D {
         }
 
         Bag.printArray(transposeMatrix);
+    }
+
+    /**
+     * You are given a n x n 2D matrix A representing an image.
+     * Rotate the image by 90 degrees (clockwise).
+     * You need to do this in place.
+     * Note: If you end up using an additional array, you will only receive partial score.
+     */
+    public void q7SolThroughArrayList(ArrayList<ArrayList<Integer>> A) {
+        int n = A.size();
+        if (A == null || n == 0)
+            return;
+        int layers = n;
+        for (int layer = 0; layer < layers / 2; layer++) {
+            int first = layer;
+            int last = n - layer - 1;
+            for (int i = first; i < last; i++) {
+                // swapping the four elements cyclically
+                int offset = i - layer;
+                int top = A.get(first).get(i);
+                A.get(first).set(i, A.get(last - offset).get(first));
+                A.get(last - offset).set(first, A.get(last).get(last - offset));
+                A.get(last).set(last - offset, A.get(i).get(last));
+                A.get(i).set(last, top);
+            }
+        }
     }
 }

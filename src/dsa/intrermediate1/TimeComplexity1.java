@@ -1,4 +1,4 @@
-package dsaBasic1;
+package dsa.intrermediate1;
 
 public class TimeComplexity1 {
     public static void main(String[] args) {

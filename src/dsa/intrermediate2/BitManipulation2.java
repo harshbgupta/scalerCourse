@@ -1,4 +1,4 @@
-package dsaBasic1;
+package dsa.intrermediate2;
 
 public class BitManipulation2 {
 
@@ -25,26 +25,26 @@ public class BitManipulation2 {
     /**
      * Write a function that takes an integer and returns the number of 1 bits it has.
      * <p>
-     *
-     *ITR: only that as times as 1 (set bit) exits in number it could be all
-     *digits ot just 1 one or just zero
+     * <p>
+     * ITR: only that as times as 1 (set bit) exits in number it could be all
+     * digits ot just 1 one or just zero
      * TC: O(logN)
      * SC:
      */
     private static int q2NumSetBits(int A) {
         int count = 0;
-       while(A>0){
-            if((A&1) == 1) count++;
-            A = A>>1;
+        while (A > 0) {
+            if ((A & 1) == 1) count++;
+            A = A >> 1;
         }
         return count;
     }
+
     /**
      * Write a function that takes an integer and returns the number of 1 bits it has.
-     * <p>
      *
-     *ITR: only that as times as 1 (set bit) exits in number it could be all
-     *digits ot just 1 one or just zero
+     * ITR: only that as times as 1 (set bit) exits in number it could be all
+     * digits ot just 1 one or just zero
      * TC: O(logN)
      * SC:
      */
@@ -76,6 +76,39 @@ public class BitManipulation2 {
         return count;
     }
 
+    /**
+     * You are given two integers A and B.
+     * Set the A-th bit and B-th bit in 0, and return output in decimal.
+     *
+     * TC: O(1)
+     * SC: O(1)
+     */
+    private static int q3SetBit(int A, int B) {
+        int num = (1 << A);
+        if(A != B){
+            num += (1 << B);
+        }
+        return num;
+    }
 
+    /**
+     * You are given two integers A and B.
+     * If B-th bit in A is set, make it unset
+     * If B-th bit in A is unset, leave it as it is
+     * Return the updated A value
+     *
+     * TC: O(1)
+     * SC: O(1)
+     */
+    private static int q4(int A, int B)  {
+        int num = 1 << B;
+        if((A & num) > 0){
+            A -= num;
+        }
+        return A;
+    }
 
+    private static long binaryToDec(String radixBaseString) {
+        return Integer.parseInt(radixBaseString, 2);
+    }
 }

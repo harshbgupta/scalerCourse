@@ -17,7 +17,7 @@ and done by Mr. Lucifer
 11. ArrayList 2D 
 12. String
 
-# DS-dsaBasic1.Bag Basic
+# DS-dsa.intrermediate1.Bag Basic
 1. Introduction to problem-solving
 2. 
 

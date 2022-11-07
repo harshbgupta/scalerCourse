@@ -1,4 +1,4 @@
-package dsaBasic1;
+package dsa.intrermediate1;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,11 +11,13 @@ public class CarryForward {
         int[] A ={16, 17, 4, 3, 5, 2};
         q3(A);
     }
-
     /**
      * Given A = [1, -2, 5, 2, -1, 6]. Choose all the valid subarrays of the array
-     *
-     * Ans: [5, 2, -1] , [1, -2, 5, 2], [6]
+
+            [5, 2, -1]          YES
+            [-2, -1, 6]         NO
+            [1, -2, 5, 2]       YES
+            [6]                 YES
      */
 
     /**
