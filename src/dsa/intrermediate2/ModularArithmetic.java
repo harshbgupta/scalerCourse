@@ -27,8 +27,17 @@ public class ModularArithmetic {
      * TC:
      * SC:
      */
-    private static void q3() {
-
+    private static int q3(int[] A, int B) {
+        long ans = 0;
+        int mod = B;
+        long base10Pow = 1; //it will 1, 10, 100 from right to left
+        for (int i = A.length - 1; i >= 0; i--) {
+            int digit = A[i];
+//            ans += (digit * base10Pow); // without mod
+            ans += (digit * base10Pow) % mod; //with mod
+            base10Pow = (base10Pow * 10) % mod;
+        }
+        return (int) (ans % mod);
     }
 
     /**
@@ -50,6 +59,5 @@ public class ModularArithmetic {
         } else {
             return 0;
         }
-
     }
 }
